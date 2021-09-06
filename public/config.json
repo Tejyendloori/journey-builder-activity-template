@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[],
           "outArguments": [],
-          "url": "https://loyaltyvoucher.herokuapp.com/WebVoucherRestAPI/CreateLoyaltyVoucher?MemberPhone=9810294203/execute",
+          "url": "https://https://jbcarestapi.herokuapp.com/create/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -28,22 +28,22 @@
     },
     "configurationArguments": {
       "save": {
-        "url": "https://loyaltyvoucher.herokuapp.com/WebVoucherRestAPI/CreateLoyaltyVoucher?MemberPhone=9810294203/journeybuilder/save",
+        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://loyaltyvoucher.herokuapp.com/WebVoucherRestAPI/CreateLoyaltyVoucher?MemberPhone=9810294203/journeybuilder/publish",
+        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://loyaltyvoucher.herokuapp.com/WebVoucherRestAPI/CreateLoyaltyVoucher?MemberPhone=9810294203/journeybuilder/stop",
+        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://loyaltyvoucher.herokuapp.com/WebVoucherRestAPI/CreateLoyaltyVoucher?MemberPhone=9810294203/journeybuilder/validate",
+        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
