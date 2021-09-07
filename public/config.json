@@ -33,7 +33,7 @@
 		   {'TransAmount':"{{Contact.Attribute.Test-DE2.TransAmount}}"},
 		   {'ComplexName':"{{Contact.Attribute.Test-DE2.ComplexName}}"}],
           "outArguments": [],
-          "url": "https://jbcarestapi.herokuapp.com/create",
+          "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
