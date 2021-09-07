@@ -15,7 +15,23 @@
     },
     "arguments": {
         "execute": {
-           "inArguments":[],
+           "inArguments":[{'contactkey':"{{Contact.Key}}"},
+		   {'TransId':"{{Contact.Attribute.JourneyEntrySource.TransId}}"},
+		   {'AmountUsed':"{{Contact.Attribute.JourneyEntrySource.AmountUsed}}"},
+		   {'MembershipId':"{{Contact.Attribute.JourneyEntrySource.MembershipId}}"}
+		   {'MemberPhone':"{{Contact.Attribute.JourneyEntrySource.MemberPhone}}"},
+		   {'Sequence':"{{Contact.Attribute.JourneyEntrySource.Sequence}}"},,
+		   {'BalanceType':"{{Contact.Attribute.JourneyEntrySource.BalanceType}}"},,
+		   {'RecognitionId':"{{Contact.Attribute.JourneyEntrySource.RecognitionId}}"},
+		   {'MemberEmail':"{{Contact.Attribute.JourneyEntrySource.MemberEmail}}"},
+		   {'SchemeId':"{{Contact.Attribute.JourneyEntrySource.SchemeId}}"},
+		   {'VoucherExpiry':"{{Contact.Attribute.JourneyEntrySource.VoucherExpiry}}"},
+		   {'BalancePoints':"{{Contact.Attribute.JourneyEntrySource.BalancePoints}}"},
+		   {'IsEnrollment':"{{Contact.Attribute.JourneyEntrySource.IsEnrollment}}"},
+		   {'MemberType':"{{Contact.Attribute.JourneyEntrySource.MemberType}}"},
+		   {'TransactionDate':"{{Contact.Attribute.JourneyEntrySource.TransactionDate}}"},
+		   {'TransAmount':"{{Contact.Attribute.JourneyEntrySource.TransAmount}}"},
+		   {'ComplexName':"{{Contact.Attribute.JourneyEntrySource.ComplexName}}"}],
           "outArguments": [],
           "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/execute",
            "verb": "POST",
@@ -62,7 +78,7 @@
         "arguments": {
             "execute": {
                 "inArguments": [],
-                "outArguments": []
+                "outArguments": [{vouchercode :{dataType :'Text',direction:'out',access:'visible'}}]
             }
         }
     }
