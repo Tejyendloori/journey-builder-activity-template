@@ -19,7 +19,7 @@
 		   {'TransId':"{{Contact.Attribute.Test-DE2.TransId}}"},
 		   {'AmountUsed':"{{Contact.Attribute.Test-DE2.AmountUsed}}"},
 		   {'MembershipId':"{{Contact.Attribute.Test-DE2.MembershipId}}"}
-		   {'MemberPhone':"{{Contact.Attribute.Test-DE2.MemberPhone}}"},
+		   {'MemberPhone':"{{Contact.Attribute.Test-DE2.Mobile No}}"},
 		   {'Sequence':"{{Contact.Attribute.Test-DE2.Sequence}}"},,
 		   {'BalanceType':"{{Contact.Attribute.Test-DE2.BalanceType}}"},,
 		   {'RecognitionId':"{{Contact.Attribute.Test-DE2.RecognitionId}}"},
