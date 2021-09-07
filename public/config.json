@@ -33,7 +33,7 @@
 		   {'TransAmount':"{{Contact.Attribute.Test-DE2.TransAmount}}"},
 		   {'ComplexName':"{{Contact.Attribute.Test-DE2.ComplexName}}"}],
           "outArguments": [],
-          "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/execute",
+          "url": "https://jbcarestapi.herokuapp.com/create/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -43,22 +43,22 @@
         }},
     "configurationArguments": {
       "save": {
-        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/save",
+        "url": "https://jbcarestapi.herokuapp.com/create/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/publish",
+        "url": "https://jbcarestapi.herokuapp.com/create/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/stop",
+        "url": "https://jbcarestapi.herokuapp.com/create/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/validate",
+        "url": "https://jbcarestapi.herokuapp.com/create/validate",
         "verb": "POST",
         "useJwt": true
       }
