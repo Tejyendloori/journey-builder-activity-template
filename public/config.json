@@ -33,33 +33,32 @@
 		   {'TransAmount':"{{Contact.Attribute.JourneyEntrySource.TransAmount}}"},
 		   {'ComplexName':"{{Contact.Attribute.JourneyEntrySource.ComplexName}}"}],
           "outArguments": [],
-          "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/execute",
+          "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
             "format": "json",
             "useJwt": true,
             "timeout": 10000
-        }
-    },
+        }},
     "configurationArguments": {
       "save": {
-        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/save",
+        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/publish",
+        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/stop",
+        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/validate",
+        "url": "https://jbcarestapi.herokuapp.com/create/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
