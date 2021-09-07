@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[],
           "outArguments": [],
-          "url": "https://https://jbcarestapi.herokuapp.com/create/execute",
+          "url": "https://https://jbcarestapi.herokuapp.com/create/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
